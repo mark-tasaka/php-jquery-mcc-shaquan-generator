@@ -1,0 +1,429 @@
+/*Post Data
+Mark Tasaka April 2018
+Mutant Crawl Classics Character Generator*/
+
+
+#characterName{
+    position: absolute;
+    top: 130px;
+    left: 60px;
+	font-size: 0.9em;
+}
+
+#arcAlignment{
+    position: absolute;
+    top: 98px;
+    left: 430px;
+	font-size: 0.8em;
+}
+
+
+#playerName{
+    position: absolute;
+    top: 195px;
+    left: 540px;
+	font-size: 0.9em;
+}
+
+
+#artifactName1{
+    position: absolute;
+    top: 715px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck1{
+    position: absolute;
+    top: 715px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect1{
+    position: absolute;
+    top: 715px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName2{
+    position: absolute;
+    top: 762px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck2{
+    position: absolute;
+    top: 762px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect2{
+    position: absolute;
+    top: 762px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName3{
+    position: absolute;
+    top: 810px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck3{
+    position: absolute;
+    top: 810px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect3{
+    position: absolute;
+    top: 810px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+#artifactName4{
+    position: absolute;
+    top: 858px;
+    left: 450px;
+    width: 180px;
+	font-size: 0.8em;
+}
+
+#artifactCheck4{
+    position: absolute;
+    top: 858px;
+    left: 660px;
+	font-size: 0.8em;
+}
+
+#artifactEffect4{
+    position: absolute;
+    top: 858px;
+    left: 700px;
+    width: 210px;
+	font-size: 0.5em;
+}
+
+
+
+#weaponDescription1{
+    position: absolute;
+    top: 895px;
+    left: 70px;
+    width: 220px;
+	font-size: 0.65em;
+}
+
+#weaponDamage1{
+    position: absolute;
+    top: 895px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+#weaponDescription2{
+    position: absolute;
+    top: 933px;
+    left: 70px;
+    width: 220px;
+	font-size: 0.65em;
+}
+
+#weaponDamage2{
+    position: absolute;
+    top: 933px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+#weaponDescription3{
+    position: absolute;
+    top: 970px;
+    left: 70px;
+    width: 220px;
+	font-size: 0.65em;
+}
+
+#weaponDamage3{
+    position: absolute;
+    top: 970px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+#weaponDescription4{
+    position: absolute;
+    top: 1005px;
+    left: 70px;
+    width: 220px;
+	font-size: 0.65em;
+}
+
+#weaponDamage4{
+    position: absolute;
+    top: 1005px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+#armourDescription{
+    position: absolute;
+    top: 1075px;
+    left: 70px;
+    width: 230px;
+	font-size: 0.8em;
+}
+
+#armourBonus{
+    position: absolute;
+    top: 1075px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+
+#armourPenalityCheck{
+    position: absolute;
+    top: 1127px;
+    left: 160px;
+	font-size: 0.7em;
+}
+
+#armourSpeedPen{
+    position: absolute;
+    top: 1127px;
+    left: 277px;
+	font-size: 0.7em;
+}
+
+#fumbleArmourValue{
+    position: absolute;
+    top: 1127px;
+    left: 368px;
+	font-size: 0.7em;
+}
+
+
+
+#modifiedFumble{
+    position: absolute;
+    top: 290px;
+    left:  764px;
+	font-size: 0.9em;
+}
+
+#modifiedSpeed{
+    position: absolute;
+    top: 254px;
+    left:  770px;
+	font-size: 1.2em;
+}
+
+
+#modifiedArmourClass{
+	position: absolute;
+    top: 260px;
+    left: 83px;
+	font-size: 1.5em;
+}
+
+
+#patronAI{
+	position: absolute;
+    top: 195px;
+    left: 255px;
+	font-size: 0.8em;
+}
+
+#wetwareLevel1Level{
+    position: absolute;
+    top: 358px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Program{
+    position: absolute;
+    top: 358px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Range{
+    position: absolute;
+    top: 358px;
+    left: 835px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Duration{
+    position: absolute;
+    top: 376px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Activation{
+    position: absolute;
+    top: 376px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Save{
+    position: absolute;
+    top: 376px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel1Page{
+    position: absolute;
+    top: 395px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel1Manifest{
+    position: absolute;
+    top: 412px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel2Level{
+    position: absolute;
+    top: 458px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Program{
+    position: absolute;
+    top: 458px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Range{
+    position: absolute;
+    top: 458px;
+    left: 830px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel2Duration{
+    position: absolute;
+    top: 476px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Activation{
+    position: absolute;
+    top: 476px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Save{
+    position: absolute;
+    top: 476px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Page{
+    position: absolute;
+    top: 495px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel2Manifest{
+    position: absolute;
+    top: 513px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel3Level{
+    position: absolute;
+    top: 559px;
+    left: 730px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Program{
+    position: absolute;
+    top: 559px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Range{
+    position: absolute;
+    top: 559px;
+    left: 830px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Duration{
+    position: absolute;
+    top: 577px;
+    left: 500px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Activation{
+    position: absolute;
+    top: 577px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Save{
+    position: absolute;
+    top: 577px;
+    left: 810px;
+	font-size: 0.6em;
+}
+
+
+#wetwareLevel3Page{
+    position: absolute;
+    top: 596px;
+    left: 850px;
+	font-size: 0.6em;
+}
+
+#wetwareLevel3Manifest{
+    position: absolute;
+    top: 614px;
+    left: 435px;
+    width: 460px;
+	font-size: 0.6em;
+}
